@@ -1,0 +1,41 @@
+body {
+  background-image: linear-gradient(to top left, white, blue);
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+img {
+  border-radius: 100%;
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+#flout {
+  float: right;
+  padding-top: 10px;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #f2ff00;
+}
+
+div {
+  background-color: #f2ff00;
+}
